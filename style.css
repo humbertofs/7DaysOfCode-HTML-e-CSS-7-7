@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'Inter var';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url('font-files/Inter.var.woff2?v={{font_v}}') format('woff2');
+    font-named-instance: 'Regular';
+  }
+
+  :root {
+    --text-color: #667085;
+    --main-color: #8E2424;
+  }
+
+body {
+    font-family: "Inter var";
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.login_entrar {
+    width: 47px;
+    height: 24px;
+        
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #667085;
+    
+    padding: 1em;
+}
+
+.div_logo {
+    display: flex;
+}
+
+.logo {
+    width: 27px;
+    height: 26.99px;
+}
+
+h1 {
+    width: 113px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3A404E;
+    padding-left: 8px;
+}
+
+menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+ul {
+    padding: 1em;
+}
+
+.button_cadastrar {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 18px;
+    gap: 8px;
+    
+    width: 112px;
+    height: 44px;
+    
+    background-color: #8E2424;
+    color: white;
+    border: 1px solid #8E2424;
+
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    padding: 0px 3em;
+}
+
+.pq_somos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    padding: 96px 0px;
+    gap: 24px;
+}
+
+.subheading {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--main-color);
+}
